@@ -1,0 +1,73 @@
+
+  
+  .facture-container {
+    background-color: #f0f4f8;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important;
+  }
+  
+ .facture-form{
+  margin-left: 150px !important;
+ }
+  
+  .facture-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #142e44;
+
+   
+  }
+  
+  .facture-form input[type='text'],
+  .facture-form input[type='number'],
+  .facture-form select,
+  .facture-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cfd8dc; /* Light blue-gray border color */
+  border-radius: 5px;
+  color: #142e44; /* Dark blue color */
+  background-color: #ffffff;
+   
+  }
+  
+  .facture-form textarea {
+    height: 100px;
+  }
+  
+  .facture-form button[type='submit'] {
+    background-color: #4367c4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .facture-form button[type='submit']:hover {
+    background-color: #4367c4;
+  }
+
+.upload-btn{
+  background-color: #4367c4;
+  padding: 10px 20px !important;
+  border-radius: 8px;
+}
+  
+ 
+  
+.annulerform-btn{
+  background-color: rgb(210, 210, 210)!important;
+  color: black !important;
+  padding: 10px 20px !important;
+  border: 1px solid rgb(210, 210, 210) !important;
+  border-radius: 8px;
+  cursor: pointer;
+ margin-bottom: 4px;
+  margin-left: 15px;
+  
+}

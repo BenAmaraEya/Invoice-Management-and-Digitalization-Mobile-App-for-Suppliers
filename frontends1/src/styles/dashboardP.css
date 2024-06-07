@@ -1,0 +1,166 @@
+.dashboardp-box p {
+  font-size: 24px;
+  font-weight: bold;
+}
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.boxes-container {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.dashboard-box {
+  background-color: lightgrey;
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  flex: 1;
+  justify-content: space-between !important;
+}
+
+.border-left-primary {
+  border-left: 5px solid #007bff;
+}
+
+.border-left-success {
+  border-left: 5px solid #28a745;
+}
+
+.border-left-warning {
+  border-left: 5px solid #ffc107;
+}
+
+.dashboard-box h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.second-container {
+  display: flex;
+  gap: 20px;
+}
+
+.reclamations-container {
+  flex: 1;
+  width: 20%;
+}
+
+
+
+
+
+.dashboard-box {
+  background-color: rgb(238, 238, 238);
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  flex: 1;
+  margin: 0 10px; /* Add margin for space between boxes */
+}
+
+/* Add margin for space between boxes */
+.boxes-container {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 20px; /* Add margin bottom for space between boxes and other containers */
+}
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.top-container {
+  height: 50px; /* Adjust height as needed */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.download-button {
+  margin-top: 60px; 
+  padding-right: 50px;/* Adjust margin as needed */
+}
+
+.middle-container {
+  flex: 1;
+}
+
+.bottom-container {
+  display: flex;
+  gap: 20px;
+}
+
+.left-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+.header-span {
+  text-align: center;
+}
+.pie-chart-container,
+.another-chart-container {
+  flex: 1;
+}
+
+.card {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+ 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid rgb(219, 219, 219);
+  margin-left: 12px;
+ 
+}
+
+th, td {
+ 
+  padding: 8px;
+  text-align: left;
+ 
+}
+th{
+  border: 1px solid #aeaeae;
+}
+
+td {
+  background-color: #f2f2f2;
+  border: 1px solid #aeaeae;
+}
+.reclamation-table tr.reclamation-row-1 th{
+  background-color: #fae6c3;
+
+}
+.reclamation-table tr.reclamation-row-2 th{
+  background-color: #4367c4;
+  color: white;
+}
+.reclamation-table{
+  margin-top: 40px;
+ 
+}

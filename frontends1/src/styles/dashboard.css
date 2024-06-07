@@ -1,0 +1,52 @@
+.bg-gradient-success {
+    background-color: #28a745; /* Green for Factures Validé */
+  }
+  
+  .bg-gradient-pay {
+    background-color: #007bff; /* Blue for Factures Payé */
+  }
+  
+  .bg-gradient-attente {
+    background-color: #ffc107; /* Yellow for Factures En Attente */
+  }
+  
+  .bg-gradient-rejete {
+    background-color: #dc3545; /* Red for Factures Rejeté */
+  }
+  .dashboard-container {
+    background-color: #eff0f6;
+    margin: 20px;
+  
+    padding: 50px;
+  
+    border-radius: 20px;
+  }
+  h1 {
+    font-size: 25px !important; /* Smaller font size */
+    font-weight: 600; /* Change style as needed */
+    color: #3b1b0d !important;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  /* Rest of the CSS remains the same */
+  .small-box {
+    display: inline-block;
+    width: 200px; /* Set the width according to your design */
+    margin: 10px; /* Adjust margins as needed */
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    position: relative; /* Add position relative for positioning */
+    top: 50px; /* Adjust the top position */
+    left: 22%; /* Adjust the left position */
+  }
+  
+  .inner h3 {
+    font-size: 32px; /* Adjust font size as needed */
+    margin-bottom: 5px; /* Adjust margins as needed */
+  }
+  
+  .inner p {
+    font-size: 16px; /* Adjust font size as needed */
+  }

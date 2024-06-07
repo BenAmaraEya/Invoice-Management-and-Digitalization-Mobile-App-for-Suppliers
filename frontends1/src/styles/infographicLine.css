@@ -1,0 +1,45 @@
+.infographic-line {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .step {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    transition: background-color 0.3s ease;
+  }
+  
+  .step::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 20px;
+    height: 2px;
+    background-color: lightgray;
+    transform: translateY(-50%);
+  }
+  
+  .step.completed {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .step.completed::after {
+    background-color: #4caf50;
+  }
+  
+  .step:last-child::after {
+    display: none;
+  }
+  .apexcharts-marker-custom-html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+  

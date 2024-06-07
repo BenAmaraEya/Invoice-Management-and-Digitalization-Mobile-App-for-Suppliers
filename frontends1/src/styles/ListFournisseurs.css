@@ -1,0 +1,73 @@
+.table-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .table-container table {
+    border: 1px solid #dbdbdb;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  .table-container th,
+  .table-container td {
+    border: 1px solid #dbdbdb;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  
+  
+  .table-container thead tr.header-row-3 th,
+  .table-container thead tr.header-row-3 td {
+    background-color: #4367c4;
+    color: white;
+  }
+  
+  .table-container thead tr.header-row-2 th,
+  .table-container thead tr.header-row-2 td {
+    background-color:#fae6c3;
+
+  }
+  
+  .table-container tbody tr:nth-child(even) {
+    background-color: #fae6c3;
+  }
+  
+  .table-container tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .search-input {
+    width: 250px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #f0f0f0
+  }
+  
+  .search-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  button.view-invoices-btn {
+    background-color: #6495ed; /* Cornflower Blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  button.view-invoices-btn:hover {
+    background-color: #4169e1; /* Slightly darker blue for hover effect */
+  }

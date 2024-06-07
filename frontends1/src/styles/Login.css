@@ -1,0 +1,109 @@
+.login__container {
+    height: 60vh; 
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+    margin-top: 50px;
+     
+  }
+  
+  .login__form {
+    background: linear-gradient(90deg, #5170ff, #ff66c4);  
+    padding: 80px;
+    border-radius: 8px; 
+  }
+  
+  .login__form input[type="text"],
+.login__form input[type="password"] {
+  width: 110%; 
+  padding: 10px; 
+  margin-bottom: 10px; 
+  
+  border-radius: 5px; 
+  border: 1px solid #ccc; 
+  background-color: transparent; 
+}
+  
+  .login__form input[type="text"]:focus,
+  .login__form input[type="password"]:focus {
+    outline: none; 
+    border-color: #5170ff; 
+  }
+  
+  .error-message {
+    color: red; 
+  }
+  .login__form button {
+    background-color: #004add; 
+    color: white; 
+    border: none; 
+    width: 260px;
+    border-radius: 8px; 
+    padding: 10px 20px; 
+    margin-left: 10px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .login__form button:hover {
+    background-color: #4158d0; 
+  }
+  .login__form label {
+    display: block; 
+    margin-bottom: -7px;
+    margin-left: 15px; 
+    background: linear-gradient(90deg,#815eff,#8462ff);
+    color:white;
+    font-size: 10px;
+    width: 65px;
+    position: relative;
+    
+
+  }
+ 
+
+
+
+
+.custom-placeholder::placeholder {
+  color: rgb(70, 70, 70); 
+}
+
+.btn_login {
+    color: white;
+    background-color:#004add !important;
+    border-color:#004add;
+    font-weight: bold !important;
+    width: 150px;
+}
+
+
+
+.btn_login:hover {
+    background-color: #246dfe !important;
+    border-color: #246dfe !important;
+}
+.partners {
+    
+    margin-top: 20px;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the cards horizontally */
+}
+
+.gallery .partner-card {
+    /* Adjust the width as needed */
+    margin: 10px; /* Adjust the margin as needed */
+    width: 28%; /* Adjust the maximum width of the card */
+}
+
+
+

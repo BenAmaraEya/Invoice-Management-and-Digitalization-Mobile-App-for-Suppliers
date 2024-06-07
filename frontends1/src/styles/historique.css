@@ -1,0 +1,60 @@
+.factures-table-historique {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+  }
+  
+  .factures-table-historique th, .factures-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd; /* Add border to cells */
+  }
+  
+  .factures-table-historique th {
+    background-color: #f2f2f2; /* Add background color to header cells */
+  }
+  
+  .factures-table-historique tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  .factures-table-historique tbody tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+  
+  .facture-row-historique:hover {
+    background-color: #f2f2f2; /* Change background color on hover */
+  }
+  .details-btn{
+   
+    background-color: #4367c4 !important;
+  }
+  .factures-table-historique tr.historique-row-1 th,
+  .factures-table-historique tr.historique-row-1 td {
+    background-color: #4367c4 !important; /* Background color for the first row */
+    color: white !important;
+    border: none; /* Ensure text is visible on dark background */
+  }
+  .factures-table-historique tr.historique-body th{
+    background-color: #fae6c3;
+  }
+  .pdf-file {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 123, 123) ;
+    font-size: 24px;
+  }
+  .pdf-file:hover{
+    color: rgb(255, 83, 83);
+  }
+  .details-btn:hover {
+    background-color: #36569c !important; /* Darker blue for hover effect */
+  }
+  .details-btn {
+    background-color: #4367c4 !important;
+    color: white !important;
+    border: 1px solid #4367c4!important;
+    padding: 8px 16px;
+    cursor: pointer;
+  }

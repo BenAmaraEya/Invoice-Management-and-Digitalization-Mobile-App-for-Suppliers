@@ -1,0 +1,93 @@
+/* styles/Home.css */
+
+.full-page-background {
+  background: linear-gradient(to right, #4367c4, #fae6c3);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.login__container {
+  background-color: rgba(255, 255, 255, 0.2); /* Set opacity */
+  padding: 20px !important;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+  width: 110% !important;
+  margin-left: 20px;
+  
+}
+
+.login__header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px ;
+}
+
+.login__icon {
+  background-color: #4367c4;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 50%;
+  font-size: 30px;
+  position: absolute;
+  top: -40px;
+  right: 42%;
+}
+
+.custom-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.auth__btn {
+  background-color: #4367c4 !important; /* Blue background */
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer; /* Add cursor pointer */
+  transition: background-color 0.3s ease; /* Add transition for hover effect */
+}
+
+.auth__btn:hover {
+  background-color: #4169e1 !important; /* Darker blue on hover */
+}
+
+.login__options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.labels{
+  margin-bottom: 5px;
+}
+.forgot-password {
+  color: #4367c4;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  color: #f8d7da;
+}

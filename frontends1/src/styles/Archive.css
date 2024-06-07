@@ -1,0 +1,142 @@
+.archive-viewer-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #3b1b0d; /* Primary blue color */
+}
+
+.text-center {
+  color: #3b1b0d;
+}
+
+.table {
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  vertical-align: middle !important;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #dbdbdb;
+}
+
+.table thead {
+  background-color: #4367c4;
+  color: white;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #fae6c3; /* Beige color for even rows */
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #ffffff; /* White color for odd rows */
+}
+
+.table tbody tr:hover {
+  background-color: #ffb6c1; /* Light pink color for hover */
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.filter-form {
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+  margin-bottom: 20px;
+}
+
+.filter-form .form-group {
+  display: flex !important;
+  align-items: center;
+}
+
+.filter-form .form-group label {
+  margin-right: 10px;
+  color: #4367c4;
+  margin-top: 22px; /* Primary blue color */
+}
+
+.filter-form .form-group select {
+  width: 200px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-right: 20px;
+  background-color: #f0f0f0; /* Light gray background for select input */
+  border: 1px solid #dbdbdb;
+}
+
+.filter-form .form-group button {
+  background-color: #4367c4; /* Primary blue color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.filter-form .form-group button:hover {
+  background-color: #36569c;
+  /* Darker blue for hover effect */
+}
+
+.details-button {
+  background-color: #4367c4 !important;
+  color: white !important;
+  border: 1px solid #4367c4 !important;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.table thead tr.header-row-archive th {
+  background-color: #4367c4;
+  color: white; /* Optional: Set text color to white for better contrast */
+}
+
+.table thead tr.text-center th {
+  background-color: #4367c4;
+  color: white;
+  text-align: center;
+}
+
+.table thead tr.filter-archive th {
+  background-color: #fae6c3;
+  color: white; /* Optional: Set text color to white for better contrast */
+}
+
+.details-button:hover {
+  background-color: #36569c !important; /* Darker blue for hover effect */
+}
+
+/* Add these styles to create the box-like appearance */
+.facture-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.facture-item {
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 30%; /* Adjust the width as needed */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

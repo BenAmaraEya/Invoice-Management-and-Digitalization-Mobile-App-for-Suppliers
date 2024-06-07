@@ -1,0 +1,42 @@
+/* AddUser.css */
+
+/* Style pour le formulaire */
+.add-user-form {
+    width: 50%; /* largeur du formulaire */
+    margin: auto; /* centrer le formulaire horizontalement */
+    padding: 20px; /* espace intérieur */
+    border: 1px solid #ddd; /* bordure */
+    border-radius: 5px; /* arrondir les coins */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* ombre */
+  }
+  
+  /* Style pour les labels */
+  .add-user-form label {
+    display: block; /* afficher chaque label sur une ligne */
+    margin-bottom: 10px; /* espacement en bas de chaque label */
+  }
+  
+  /* Style pour les champs de saisie */
+  .add-user-form input,
+  .add-user-form select {
+    width: 100%; /* largeur de 100% */
+    padding: 10px; /* espacement intérieur */
+    margin-bottom: 15px; /* espacement en bas */
+    border: 1px solid #ddd; /* bordure */
+    border-radius: 5px; /* arrondir les coins */
+  }
+  
+  /* Style pour le bouton de soumission */
+  .add-user-form button {
+    padding: 10px 20px; /* espacement intérieur */
+    background-color: #007bff; /* couleur de fond */
+    color: #fff; /* couleur du texte */
+    border: none; /* pas de bordure */
+    border-radius: 5px; /* arrondir les coins */
+    cursor: pointer; /* curseur pointeur */
+  }
+  
+  .add-user-form button:hover {
+    background-color: #0056b3; /* couleur de fond au survol */
+  }
+  

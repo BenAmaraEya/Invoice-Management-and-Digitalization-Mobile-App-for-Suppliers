@@ -1,0 +1,76 @@
+
+  
+ .facture-update-container {
+  background-color: #f0f4f8; /* Light background color for the container */
+  padding: 30px; /* Increased padding for better spacing */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important; /* Subtle shadow for depth */
+  margin-top: 20px;
+}
+  
+ .facture-update-form{
+  margin-left: 50px;
+  width: 100%;
+  
+ }
+  
+  .facture-update-form label {
+    display: block;
+    
+    font-weight: bold;
+    color: #142e44;
+    
+   
+  }
+  .facture-update-form button[type='submit']:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  .facture-update-form input[type='text'],
+  .facture-update-form input[type='number'],
+  .facture-update-form select,
+  .facture-update-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cfd8dc; /* Light blue-gray border color */
+  border-radius: 5px;
+  color: #142e44; /* Dark blue color */
+  background-color: #ffffff;
+   
+   
+  }
+  
+  .facture-update-form textarea {
+    height: 100px;
+  }
+  
+  .facture-update-form button[type='submit'] {
+    background-color: #4367c4; /* Primary button color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .facture-update-form button[type='submit']:hover {
+    background-color: #007bff;
+    
+  }
+
+  .upload-btn {
+    background-color: #4367c4; /* Consistent button color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    margin-top: 10px; /* Spacing above the button */
+  }
+  .upload-btn:hover {
+    background-color: #007bff; /* Darker shade on hover */
+  }
+ 
+  

@@ -1,0 +1,81 @@
+/* ListUser.css */
+
+/* Style pour le lien "Add User" */
+.add-user-link {
+    display: block;
+    margin-top: 40px;
+    color: #007bff; /* couleur du lien */
+    text-decoration: none; /* enlever le soulignement par défaut */
+  }
+  
+  .add-user-link:hover {
+    text-decoration: underline; /* souligner le lien au survol */
+  }
+  
+  /* Style pour le tableau */
+  table {
+    width: 100%;
+    border-collapse: collapse; /* fusionner les bordures des cellules */
+    margin-bottom: 20px;
+  }
+  
+  /* Style pour les cellules de titre */
+  th {
+    background-color: #f2f2f2; /* couleur de fond */
+    border: 1px solid #ddd; /* bordure */
+    padding: 8px; /* espacement interne */
+    text-align: left; /* alignement du texte */
+  }
+  
+  /* Style pour les cellules de données */
+  td {
+    border: 1px solid #ddd; /* bordure */
+    padding: 8px; /* espacement interne */
+  }
+  
+  /* Style pour le lien "Update" */
+  .update-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .access-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .update-link {
+    
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin-right: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+.list-fournisseur{
+  margin-top: 50px;
+}
+  

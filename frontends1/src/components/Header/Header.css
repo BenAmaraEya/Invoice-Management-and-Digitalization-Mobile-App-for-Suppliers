@@ -1,0 +1,133 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #4367c4;
+  height: 82px;
+}
+
+/* Update button styles */
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, color 0.3s ease, border-radius 0.3s ease;
+  margin-top: 30px !important;
+ 
+  font-weight: bold;
+ 
+}
+
+.menu li a:hover {
+  background-color: #fff;
+  color: #4367c4;
+  border-radius: 50px;
+}
+
+.dropdown-content {
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  z-index: 1;
+  padding-bottom: 50px;
+ 
+
+}
+
+.dropdown-btn {
+ 
+  cursor: pointer;
+  color: #fff !important;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 25px;
+  position: relative;
+  transition: background-color 0.3s ease, border-radius 0.3s ease;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  padding-left: 5px !important;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+  color: black;
+  transition: background-color 0.3s ease, border-radius 0.3s ease;
+  text-decoration: none;
+}
+
+.dropdown-item:hover {
+  background-color: #fff !important;
+  border-radius: 25px;
+}
+
+
+.dropdown-content button {
+  cursor: pointer;
+}
+
+
+.menu li a {
+  transition: transform 0.3s ease;
+}
+
+.menu li a:hover {
+  transform: scale(1.1);
+}
+.notification-badge-container {
+  position: absolute;
+  top: 2px;
+  right: 6px;
+  display: inline-block;
+}
+
+.notif-icon {
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8px !important;
+  position: relative;
+}
+
+.listarchivebtn{
+  border: none !important;
+  background-color: transparent !important;
+  color: black !important; 
+  padding-top: 5px !important;
+  padding-left: 1px !important;
+  
+}
+.deposer-button {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  position: relative;
+  transition: background-color 0.3s ease, color 0.3s ease, border-radius 0.3s ease;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.deposer-button:hover {
+  background-color: #fff;
+  color: #4367c4 !important;
+  border-radius: 50px;
+}

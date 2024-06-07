@@ -1,0 +1,140 @@
+  .courriers-table {
+    width: 100%;
+    border-collapse: collapse;
+   margin-top: 20px;
+   
+  }
+  
+  .courriers-table th, .courriers-table td {
+    padding: 10px;
+    text-align: left; 
+   
+  }
+  
+.courriers-row-1
+{
+  padding: 30px !important;
+  background-color: #f1f1f1; 
+}
+  
+  .search-row-container {
+    display: flex;
+    justify-content: flex-end !important;
+    gap: 10px;
+    padding: 20px;
+   
+  }
+  
+  .search-input-courriers {
+   
+    width: 250px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid rgb(163, 163, 163);
+  background-color: whitesmoke !important;
+  }
+  
+  .search-btn-courriers {
+    width: 50px;
+    background: white;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+
+  }
+  
+  .search-btn-courriers svg {
+    color: black;
+    font-size: 20px;
+  }
+  
+  
+  .pdf-file {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 123, 123) ;
+    font-size: 24px;
+  }
+  .pdf-file:hover{
+    color: rgb(255, 83, 83);
+  }
+  .view-etat:hover{
+    color:#007bff !important
+  }
+  .infographic-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .infographic-link:hover {
+    text-decoration: underline;
+  }
+  .courriers-table thead tr.courriers-1 th,
+  .courriers-table thead tr.courriers-1 td {
+      background-color: #fae6c3;
+      color: #3b1b0d;
+      text-align: center;
+  }
+  
+  .courriers-table thead tr.courriers-row-2 th,
+  .courriers-table thead tr.courriers-row-2 td {
+      background-color:  #4367c4;
+     
+      color:rgba(245, 245, 245, 0.884) !important;
+      border: 1px solid rgb(141, 141, 141);
+      
+  }
+  .courriers-table tbody td{
+    border: 1px solid none;
+  }
+  .courriers-table tbody tr {
+    border-top: 2px solid gainsboro;
+     /* Add a white border-top to each row */
+  }
+  .courriers-table tbody tr:nth-child(odd) {
+      background-color: #f9f9f9;
+  }
+  
+  .courriers-table tbody tr:nth-child(even) {
+      background-color: #ffffff;
+  }
+  .btn-validcourriers{
+    background-color: #55da08 !important;
+    color: white;
+    border: 1px solid #55da08 !important;
+    padding: 8px 14px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .btn-validcourriers:hover {
+    background-color: #bbed9c !important;
+  }
+  .edit:hover{
+ color: rgb(86, 86, 86) !important;
+  }
+  .delete-btn:hover{
+    color: rgb(86, 86, 86) !important;
+  }
+  select {
+    width: 150px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    background-color: #f9f9f9; /* Background color */
+    color: #333; /* Text color */
+  }
+  
+  select:focus {
+    outline: none; /* Remove focus outline */
+    border-color: #007bff; /* Change border color on focus */
+  }
+  
+  option {
+    background-color: white; /* Background color of options */
+    color: #333; /* Text color of options */
+  }
+  
